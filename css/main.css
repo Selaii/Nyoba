@@ -392,7 +392,7 @@ Footer
 }
 .page-footer .footer-logo,
 .page-footer a {
-  color: var(--primary-500);
+  color: rgba(230, 198, 139, 0.692);
 }
 /*
 =============== 
@@ -748,18 +748,18 @@ Recipe Template
 }
 
 .recipe {
-  position: relative; /* Memastikan elemen posisi relatif */
+  position: relative;
   transition: background-color 0.3s ease;
 }
 
 .recipe:hover {
-  background-color: rgba(230, 198, 139, 0.692); /* Menetapkan warna latar belakang yang gelap saat hover */
+  background-color: rgba(230, 198, 139, 0.692);
   padding: 3px;
-  transform: scale(1.05); /* Memperbesar elemen saat hover */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Menambahkan bayangan saat hover */
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .recipe:hover h5,
 .recipe:hover p {
-  color: var(--grey-900); /* Mengubah warna teks saat hover agar terlihat jelas di atas latar belakang gelap */
+  color: var(--grey-900);
 }
